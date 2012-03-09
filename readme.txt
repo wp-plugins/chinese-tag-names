@@ -16,6 +16,7 @@ Stable tag: 1.0.4
 可以通过修改`wp-class.php`的方式来解决，但是每次Wordpress升级都要重新修改一次，比较麻烦。
 
 本插件提供了便捷的解决方法。
+插件主页：http://nutsland.cn/blog/archives/177.html
 
 == Installation ==
 
@@ -30,6 +31,9 @@ Stable tag: 1.0.4
 3. 安装完毕后，启用`Chinese Tag Names`插件。
 
 == Changelog ==
+
+= 1.0.5 =
+* 修复翻页链接错误的BUG。
 
 = 1.0.4 =
 * 修复一个Bug。

@@ -1,7 +1,7 @@
 ﻿<?php 
 /*
 Plugin Name: Chinese Tag Names
-Plugin URI: http://nutsland.cn
+Plugin URI: http://nutsland.cn/blog/archives/177.html
 Description: 解决在Win主机下中文Tag名(包括中文分类名,页面名)不能访问的问题
 Author: Coconut
 Version: 1.0.1

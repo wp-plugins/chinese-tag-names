@@ -1,75 +1,32 @@
-=== Chinese Tag Names ===
+﻿=== Chinese Tag Names ===
 Contributors: CoconutCN
 Donate link: http://nutsland.cn
 Tags: tags, chinese, link, url, 中文, 标签, 链接
 Requires at least: 2.0.2
 Tested up to: 3.3.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
-解决在Win主机下中文标签名(包括中文分类名,页面名)不能访问的问题
+解决中文标签名(包括中文分类名,页面名)不能访问的问题
 
 == Description ==
 
-coming soon....
+在Wordpress中设定了固定链接之后，有时（多见于Win系统）会出现中文标签（Tag）的固定链接不能访问的问题。
+即`http://example.com/tag/中文`不能访问，而`http://example.com/?tag=中文`可以访问。
+
+可以通过修改`wp-class.php`的方式来解决，但是每次Wordpress升级都要重新修改一次，比较麻烦。
+
+本插件提供了便捷的解决方法。
 
 == Installation ==
 
-coming soon....
-
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1.png` (or jpg, jpeg, gif)
-2. This is the second screen shot
+1. 下载`chinese-tag-names.zip`。
+2. 解压`chinese-tag-names.zip`得到`chinese-tag-names`文件夹，将其上传到Wordpress的`wp-content/plugins`目录下。
+3. 在后台启用`Chinese Tag Names`插件。
 
 == Changelog ==
 
-= 1.0 =
-* A change since the previous version.
-* Another change.
-
-== Upgrade Notice ==
+= 1.0.1 =
+* 完善了插件文档。
 
 = 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
-
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+* 第一个发布版本。

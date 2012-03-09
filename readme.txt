@@ -4,14 +4,14 @@ Donate link: http://nutsland.cn
 Tags: tags, chinese, link, url, 中文
 Requires at least: 2.0.2
 Tested up to: 3.3.1
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 
 解决中文标签名(包括中文分类名,页面名)不能访问的问题
 
 == Description ==
 
 在Wordpress中设定了固定链接之后，有时（多见于Win主机）会出现中文标签（Tag）的固定链接不能访问的问题。
-即`http://example.com/tag/中文`不能访问，而`http://example.com/?tag=中文`可以访问。
+即 `http://example.com/tag/中文` 不能访问，而 `http://example.com/?tag=中文` 可以访问。
 
 可以通过修改`wp-class.php`的方式来解决，但是每次Wordpress升级都要重新修改一次，比较麻烦。
 
@@ -32,7 +32,7 @@ Stable tag: 1.0.5
 
 == Changelog ==
 
-= 1.0.5 =
+= 1.0.6 =
 * 修复翻页链接错误的Bug。
 
 = 1.0.4 =

@@ -1,4 +1,4 @@
-﻿=== Chinese Tag Names ===
+=== Chinese Tag Names ===
 Contributors: CoconutCN
 Donate link: http://nutsland.cn
 Tags: tags, chinese, link, url, 中文, 标签, 链接

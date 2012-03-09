@@ -1,7 +1,7 @@
-﻿=== Chinese Tag Names ===
+=== Chinese Tag Names ===
 Contributors: CoconutCN
 Donate link: http://nutsland.cn
-Tags: tags, chinese, link, url, 中文, 标签, 链接
+Tags: tags, chinese, link, url, 中文
 Requires at least: 2.0.2
 Tested up to: 3.3.1
 Stable tag: 1.0.5
@@ -33,7 +33,7 @@ Stable tag: 1.0.5
 == Changelog ==
 
 = 1.0.5 =
-* 修复翻页链接错误的BUG。
+* 修复翻页链接错误的Bug。
 
 = 1.0.4 =
 * 修复一个Bug。

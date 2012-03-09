@@ -2,7 +2,7 @@
 /*
 Plugin Name: Chinese Tag Names
 Plugin URI: http://nutsland.cn
-Description: Make tag links containing Chinese characters accessable in Win Environment.解决在Win主机下中文Tag名(包括中文分类名,页面名)不能访问的问题
+Description: 解决在Win主机下中文Tag名(包括中文分类名,页面名)不能访问的问题
 Author: Coconut
 Version: 1.0.1
 Author URI: http://nutsland.cn

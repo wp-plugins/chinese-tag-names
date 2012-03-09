@@ -8,9 +8,9 @@ Version: 1.0.3
 Author URI: http://nutsland.cn
 */
 
-add_action('parse_request', 'coco_chinese_tag_proc');
+add_action('parse_request', 'coco_chinese_tag_names');
 
-function coco_chinese_tag_proc($arr) {
+function coco_chinese_tag_names($arr) {
 	$arr->request = mb_convert_encoding($arr->request, "UTF-8", "GBK");
 	if(isset($arr->query_vars['pagename']))
 		$arr->query_vars['pagename'] = mb_convert_encoding($arr->query_vars['pagename'], "UTF-8", "GBK");

@@ -1,4 +1,4 @@
-=== Chinese Tag Names ===
+﻿=== Chinese Tag Names ===
 Contributors: CoconutCN
 Donate link: http://nutsland.cn
 Tags: tags, chinese, link, url, 中文, 标签, 链接
@@ -16,7 +16,7 @@ Stable tag: 1.0.5
 可以通过修改`wp-class.php`的方式来解决，但是每次Wordpress升级都要重新修改一次，比较麻烦。
 
 本插件提供了便捷的解决方法。
-插件主页：http://nutsland.cn/blog/archives/177.html
+插件主页：`http://nutsland.cn/blog/archives/177.html`
 
 == Installation ==
 

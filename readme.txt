@@ -19,9 +19,15 @@ Stable tag: 1.0.1
 
 == Installation ==
 
+**手动安装**
 1. 下载`chinese-tag-names.zip`。
 2. 解压`chinese-tag-names.zip`得到`chinese-tag-names`文件夹，将其上传到Wordpress的`wp-content/plugins`目录下。
 3. 在后台启用`Chinese Tag Names`插件。
+
+**自动安装**
+1. 登陆Wordpress后台，在插件安装中搜索`Chinese Tag Names`。
+2. 点击“现在安装”。
+3. 安装完毕后，启用`Chinese Tag Names`插件。
 
 == Changelog ==
 

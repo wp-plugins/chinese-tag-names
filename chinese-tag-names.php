@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 /*
 Plugin Name: Chinese Tag Names
 Plugin URI: http://nutsland.cn/blog/archives/177.html

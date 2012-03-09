@@ -4,7 +4,7 @@ Donate link: http://nutsland.cn
 Tags: tags, chinese, link, url, 中文, 标签, 链接
 Requires at least: 2.0.2
 Tested up to: 3.3.1
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 
 解决中文标签名(包括中文分类名,页面名)不能访问的问题
 
@@ -22,7 +22,7 @@ Stable tag: 1.0.4
 
 = 手动安装 =
 1. 下载`chinese-tag-names.zip`。
-2. 解压`chinese-tag-names.zip`得到`chinese-tag-names`文件夹，将其上传到Wordpress的`wp-content/plugins`目录下。
+2. 解压`chinese-tag-names.zip`到`chinese-tag-names`文件夹，将其上传到Wordpress的`wp-content/plugins`目录下。
 3. 在后台启用`Chinese Tag Names`插件。
 
 = 自动安装 =

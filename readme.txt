@@ -4,7 +4,7 @@ Donate link: http://nutsland.cn
 Tags: tags, chinese, link, url, 中文, 标签, 链接
 Requires at least: 2.0.2
 Tested up to: 3.3.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 解决中文标签名(包括中文分类名,页面名)不能访问的问题
 
@@ -31,7 +31,7 @@ Stable tag: 1.0.1
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.2 =
 * 完善了插件文档。
 
 = 1.0 =

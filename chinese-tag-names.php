@@ -23,8 +23,8 @@ function coco_chinese_convencoding($str, $to = 'UTF-8', $from = 'GBK') {
 function coco_chinese_tag_names_parse_request($obj) {
 	if(isset($obj->request))
 		$obj->request = coco_chinese_convencoding($obj->request, get_option('blog_charset'));
-	foreach ($obj->query_vars as $key => $value) {
-		$obj->query_vars[$key] = coco_chinese_convencoding($value, get_option('blog_charset'));
+	if(isset($obj->query_vars)) foreach ($obj->query_vars as $key => &$value) {
+		$value = coco_chinese_convencoding($value, get_option('blog_charset'));
 	}
 }
 

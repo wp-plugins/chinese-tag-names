@@ -13,7 +13,7 @@ Stable tag: 1.0.8
 在Wordpress中设定了固定链接之后，有时（多见于Win主机）会出现中文标签（Tag）的固定链接不能访问的问题。<br>
 即 `http://example.com/tag/中文` 不能访问，而 `http://example.com/?tag=中文` 可以访问。
 
-可以通过修改 `class-wp.php` 的方式来解决，但是每次Wordpress升级都要重新修改一次，比较麻烦。
+可以通过修改Wordpress内核函数的方式来解决，但是每次Wordpress升级都要重新修改一次，比较麻烦。
 
 本插件提供了便捷的解决方法。
 

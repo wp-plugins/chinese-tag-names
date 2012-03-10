@@ -4,14 +4,14 @@ Plugin Name: Chinese Tag Names
 Plugin URI: http://nutsland.cn/blog/archives/177.html
 Description: 解决中文标签名(包括中文分类名,页面名)不能访问的问题
 Author: Coconut
-Version: 1.0.6
+Version: 1.0.7
 Author URI: http://nutsland.cn
 */
 
 add_action('parse_request', 'coco_chinese_tag_names_parse_request');
 add_filter('get_pagenum_link', 'coco_chinese_tag_names_get_pagenum_link');
 
-function coco_chinese_convencoding($str, $to, $from) {
+function coco_chinese_convencoding($str, $to = 'UTF-8', $from = 'GBK') {
 	if (function_exists('mb_convert_encoding')) {
 		$str = mb_convert_encoding($str, $to, $from);
 	} else if (function_exists('iconv')) {
@@ -22,17 +22,14 @@ function coco_chinese_convencoding($str, $to, $from) {
 
 function coco_chinese_tag_names_parse_request($obj) {
 	if(isset($obj->request))
-		$obj->request = coco_chinese_convencoding($obj->request, "UTF-8", "GBK");
-	if(isset($obj->query_vars['tag']))
-		$obj->query_vars['tag'] = coco_chinese_convencoding($obj->query_vars['tag'], "UTF-8", "GBK");
-	if(isset($obj->query_vars['pagename']))
-		$obj->query_vars['pagename'] = coco_chinese_convencoding($obj->query_vars['pagename'], "UTF-8", "GBK");
-	if(isset($obj->query_vars['category_name']))
-		$obj->query_vars['category_name'] = coco_chinese_convencoding($obj->query_vars['category_name'], "UTF-8", "GBK");
+		$obj->request = coco_chinese_convencoding($obj->request, get_option('blog_charset'));
+	foreach ($obj->query_vars as $key => $value) {
+		$obj->query_vars[$key] = coco_chinese_convencoding($value, get_option('blog_charset'));
+	}
 }
 
 function coco_chinese_tag_names_get_pagenum_link($result) {
-	$result =  coco_chinese_convencoding($result, "UTF-8", "GBK");
+	$result =  coco_chinese_convencoding($result, get_option('blog_charset'));
 	return $result;
 }
 

@@ -35,7 +35,7 @@ Stable tag: 1.0.7
 3. 登录Wordpress后台，启用 `Chinese Tag Names` 插件。
 
 = 自动安装 =
-1. 登陆Wordpress后台，在插件安装中搜索 `Chinese Tag Names` 。
+1. 登录Wordpress后台，在插件安装中搜索 `Chinese Tag Names` 。
 2. 点击“现在安装”。
 3. 安装完毕后，启用 `Chinese Tag Names` 插件。
 

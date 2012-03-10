@@ -4,7 +4,7 @@ Donate link: http://nutsland.cn
 Tags: tag, chinese, link, url, permalink, 中文, 标签, 链接, 固定链接
 Requires at least: 2.0.2
 Tested up to: 3.3.1
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 
 解决中文标签名(已支持所有含中文的固定链接)不能访问的问题。
 
@@ -41,7 +41,7 @@ Stable tag: 1.0.7
 
 == Changelog ==
 
-= 1.0.7 = 
+= 1.0.8 = 
 * 现在支持所有包含中文的固定链接了，包括标签、分类、作者存档页面、文章名等。
 
 = 1.0.6 =

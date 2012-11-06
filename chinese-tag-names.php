@@ -4,7 +4,7 @@ Plugin Name: Chinese Tag Names
 Plugin URI: http://nutsland.cn/blog/archives/177.html
 Description: 解决中文标签名(已支持所有含中文的固定链接)不能访问的问题。
 Author: Coconut
-Version: 1.0.10
+Version: 1.1
 Author URI: http://nutsland.cn
 */
 
@@ -21,9 +21,11 @@ function coco_chinese_convencoding($str, $to = 'UTF-8', $from = 'GBK') {
 }
 
 function coco_chinese_tag_names_parse_request($obj) {
+    if ($obj->did_permalink == false) return;
 	if(isset($obj->request))
 		$obj->request = coco_chinese_convencoding($obj->request, get_option('blog_charset'));
 	if(isset($obj->query_vars)) foreach ($obj->query_vars as $key => &$value) {
+		if ($key == 's') continue;
 		$value = coco_chinese_convencoding($value, get_option('blog_charset'));
 	}
 }

@@ -3,7 +3,7 @@ Contributors: CoconutCN
 Donate link: http://nutsland.cn
 Tags: tag, chinese, link, url, permalink, 中文, 标签, 链接, 固定链接
 Requires at least: 2.0.2
-Stable tag: 1.0.10
+Stable tag: 1.1
 
 解决中文标签名(已支持所有含中文的固定链接)不能访问的问题。
 
@@ -39,6 +39,9 @@ Stable tag: 1.0.10
 3. 安装完毕后，启用 `Chinese Tag Names` 插件。
 
 == Changelog ==
+
+= 1.1 =
+* 修复了不能搜索中文的BUG。
 
 = 1.0.10 =
 * 优化了代码。
